@@ -1,0 +1,8 @@
+version: "3.8"
+
+services:
+  echo:
+    image: mpolden/echoip
+    restart: always
+    ports:
+      - 8099:8080
